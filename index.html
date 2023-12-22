@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CHEET SHEET</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5vh;
+            vertical-align: top;
+            background-color: #c1bdb0;
+        }
+
+        .wrapper {
+            margin: 1em;
+            position: relative;
+            padding: 0 0 0 2em;
+            /* line-height of .wrapper div:first-child span */
+            background: #e3e0d3;
+            width: 50vh;
+            min-height: 20vh;
+            display: inline-block;
+            vertical-align: top;
+            border-right: 1em dotted  #001100cc;
+            border-left: 1em dotted #001100cc;
+
+        }
+
+        .wrapper header {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0.25em;
+            bottom: 0;
+            width: 2em;
+            /* line-height of .wrapper div:first-child span */
+            overflow: hidden;
+            white-space: nowrap;
+            color: #33ff99;
+            background-color: #002211;
+        }
+
+        .wrapper header h1 {
+            -moz-transform-origin: 0 50%;
+            -moz-transform: rotate(-90deg) translate(-50%, 50%);
+            -webkit-transform-origin: 0 50%;
+            -webkit-transform: rotate(-90deg) translate(-50%, 50%);
+            -o-transform-origin: 0 50%;
+            -o-transform: rotate(-90deg) translate(-50%, 50%);
+            -ms-transform-origin: 0 50%;
+            -ms-transform: rotate(-90deg) translate(-50%, 50%);
+            transform-origin: 0 50%;
+            transform: rotate(-90deg) translate(-50%, 50%);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            height: 2em;
+            /* line-height of .wrapper div:first-child span */
+            margin: auto;
+            font-weight: bold;
+            font-size: 1em;
+            line-height: 2em;
+            /* Copy to other locations */
+        }
+
+        .wrapper article {
+            /* display:inline-block; */
+            /* width:25%; */
+            padding: 0.5em 1em;
+            margin: 0.25em 0.25em 0.25em .5em;
+            background-color: #ccffdd;
+            vertical-align: middle;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -o-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #332211;
+        }
+
+        .wrapper article:nth-of-type(odd) {
+            background-color: #779988;
+        }
+
+        /* .wrapper article>div:nth-of-type(even) {
+            background-color: #ddffee;
+        } */
+    </style>
+</head>
+
+<body>
+    <section class="wrapper">
+        <header>
+            <h1>Test</h1>
+        </header>
+        <article>A short snippet showing that the <code>&lt;header></code> element is centered vertically...</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>A short article snippet...</article>
+    </section>
+    <section class="wrapper">
+        <header>
+            <h1>Test</h1>
+        </header>
+        <article>A short snippet showing that the <code>&lt;header></code> element is centered vertically even with a
+            longer snippet length.</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>A short article snippet...</article>
+    </section>
+    <section class="wrapper">
+        <header>
+            <h1>Test</h1>
+        </header>
+        <article>A short snippet showing that the <code>&lt;header></code> element is centered vertically...</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>A short article snippet...</article><!--
+        -->
+        <article>Items that don't fit on the same line simply wrap. The <code>&lt;header></code> repositions
+            accordingly.</article>
+    </section>
+</body>
+
+</html>
